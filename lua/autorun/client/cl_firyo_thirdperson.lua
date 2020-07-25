@@ -50,12 +50,7 @@ list.Set("DesktopWindows", "ThirdPerson", {
 })
 
 net.Receive("Firyo:ThirdPerson:Toggle", function(len)
-    local int = net.ReadInt(4)
-    if (int == 0) then
-        ThirdPerson(false)
-    else
-        ThirdPerson()
-    end
+    ThirdPerson()
 end)
 
 hook.Add("PlayerSwitchWeapon", "Firyo:ThirdPersonSwitchWPN", function(ply, old, new)
