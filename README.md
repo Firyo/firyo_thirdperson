@@ -1,4 +1,4 @@
-firyo_thirdperson
+firyo_thirdperson for Garry's Mod
 
 
 Troisième personne fixe et qui empêche les décales
