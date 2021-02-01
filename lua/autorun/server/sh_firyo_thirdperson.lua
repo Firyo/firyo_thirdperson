@@ -1,0 +1,2 @@
+FiryoThirdPerson = {}
+FiryoThirdPerson.Config = {}
